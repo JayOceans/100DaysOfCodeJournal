@@ -1,3 +1,3 @@
 # Git practice
-x = BTC # just saving a change
+x = "BTC" # just saving a change
 

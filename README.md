@@ -1,2 +1,2 @@
-# 100DaysOfCodeJournal
-a jouranal, documenting my activities, as i learn to code
+# 100DaysOfCode 
+documenting my activities, as i learn to code

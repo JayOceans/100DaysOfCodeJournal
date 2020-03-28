@@ -1,10 +1,28 @@
+
+
+
+
 DAY 1   sat, march 28
 
 how to pull new files into editor from github 
 (this file : )
 practice pushing to Hub
+- note : remember to change Json setting to Python3
 
+https://www.youtube.com/watch?v=yE9v9rt6ziw
 
+01:04:03 Comparison Operators
+01:06:09 Conditional Statements 
+01:10:20 Ternary Operator
+01:12:31 Logical Operators
+01:16:35 Short-circuit Evaluation 
+01:18:44 Chaining Comparison Operators 
+01:20:08 Quiz
+01:21:53 For Loops 
+01:25:32 For..Else 
+
+VS Code Review
+- edit .json file to python3 
 
 
 
@@ -17,7 +35,26 @@ research courses -
 
 https://www.youtube.com/watch?v=yE9v9rt6ziw
 
-practice coding basics
+00:00:00 What is Python?
+00:03:22 Installing Python
+00:05:15 Python Interpreter 
+00:07:12 Code Editors
+00:08:32 Your First Python Program 
+00:12:11 Python Extensions 
+00:15:04 Linting Python Code 
+00:19:20 Formatting Python Code 
+00:23:16 Running Python Code 
+00:26:17 Quiz
+00:28:41 Variables
+00:31:48 Variable Names 
+00:34:52 Strings
+00:40:24 Escape Sequences 
+00:43:06 Formatted Strings 
+00:45:16 String Methods 
+00:51:13 Numbers
+00:54:01 Working with Numbers 
+00:56:12 Type Conversion 
+01:01:18 Quiz
 
 
 BTC - installed 19.1

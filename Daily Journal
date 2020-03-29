@@ -1,4 +1,45 @@
 
+Day 2 sun, march 29
+
+review moving/ sycning files 
+- GIT 
+https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=608s
+
+CLI - create access tokens
+--> need setup/use osxkeychain/something 
+so won't need to create everytime
+
+- create plan
+
+    TOOLS
+vsCode
+GIT
+Github / GH Desktop
+Terminal
+.NET ?…
+   
+    PYTHON BASICS
+terminology
+concepts
+check out documentation
+3 chill, cool apps/ scripts
+contribute OS projects
+
+    PORTFOLIO
+website
+3 python apps
+3 os commits
+
+   BTC
+power user 
+mastering BTC / cert expert…
+programming blockchain
+1 awesome project
+
+    NETWORK / INTERVIEW
+
+    CODE & HELP BTC & GET PAID
+
 
 
 
@@ -7,7 +48,7 @@ DAY 1   sat, march 28
 how to pull new files into editor from github 
 (this file : )
 practice pushing to Hub
-- note : remember to change Json setting to Python3
+DONE---> note : remember to change Json setting to Python3
 
 https://www.youtube.com/watch?v=yE9v9rt6ziw
 
@@ -26,7 +67,7 @@ VS Code Review
 
 
 
-DAY 0   fri, march 27, 2020
+# DAY 0   fri, march 27, 2020
 
 review how to use github
 install & push commits with GH Desktop app

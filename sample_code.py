@@ -1,8 +1,22 @@
+
+# Day 3
+
 # add change
 # did the file name change ?...
 # test if git is needed ... NO
 
 import math
+count = 0
+for number in range(1, 30):
+    if number % 2 == 0:
+        print(number)
+        count += 1
+print(f"we have {count} numbers...")
+
+
+# Day 2 code disappeared (sad)
+
+# LOST CODE...
 
 
 # Day 1

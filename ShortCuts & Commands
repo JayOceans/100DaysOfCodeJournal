@@ -10,12 +10,12 @@ CLI
 using GIT
 
 _______How To Push______________________
--1st : git add * (* = all)
+-1st : git add * (* = all)                       "staging"
 # puts them in a loading bay
 
 - *** : NEED PULL remote changes here, then...
 
--2nd : git commit -m "add message"
+-2nd : git commit -m "add message"                 "commit" -adds info
 # gets ready
 
--3rd : git push
+-3rd : git push                                     "push" -send 

@@ -1,6 +1,6 @@
 {
     "git.ignoreLimitWarning": true,
-    "editor.fontSize": 14
+    "editor.fontSize": 16
     "code-runner.executorMap": {
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",

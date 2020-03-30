@@ -1,6 +1,6 @@
 # add change
 # did the file name change ?...
-# test if git is needed ...
+# test if git is needed ... NO
 
 import math
 

@@ -9,6 +9,7 @@ CLI
 
 using GIT
 
+_______How To Push______________________
 -1st : git add * (* = all)
 # puts them in a loading bay
 

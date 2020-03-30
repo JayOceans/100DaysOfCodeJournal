@@ -1,0 +1,20 @@
+ShortCuts & Commands
+
+# when in python3
+>>>
+control - alt - n      # auto runs code below
+
+
+CLI
+
+using GIT
+
+-1st : git add * (* = all)
+# puts them in a loading bay
+
+- *** : NEED PULL remote changes here, then...
+
+-2nd : git commit -m "add message"
+# gets ready
+
+-3rd : git push

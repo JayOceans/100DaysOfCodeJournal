@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
 # add change
 # did the file name change ?...
 
->>>>>>> 64340e991dadb6f7c622ea82271b69d8505cecd9
 import math
 
 

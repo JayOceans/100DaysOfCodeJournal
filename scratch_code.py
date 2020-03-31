@@ -1,8 +1,15 @@
 # daily work
 
-count = 0
-for number in range(1, 30):
-    if number % 2 == 0:
-        print(number)
-        count += 1
-print(f"we have {count} numbers...")
+
+def fizz_buzz(input):
+
+    if (input % 5 == 0) and (input % 3 == 0):
+        return("FizzBuzz")
+    if input % 3 == 0:
+        return("Fizz")
+    if input % 5 == 0:
+        return("Buzz")
+    return(input)
+
+
+print(fizz_buzz(34))

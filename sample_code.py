@@ -1,3 +1,41 @@
+# Day 4
+
+
+import math
+
+
+def fizz_buzz(input):
+
+    if (input % 5 == 0) and (input % 3 == 0):
+        return("FizzBuzz")
+    if input % 3 == 0:
+        return("Fizz")
+    if input % 5 == 0:
+        return("Buzz")
+    return(input)
+
+
+print(fizz_buzz(34))
+
+
+def multing_unknown_numbers(*abc):
+
+    total = 1
+    for x in abc:
+        total *= x   # total = total * x
+    return total
+
+
+print(multing_unknown_numbers(3, 9,))
+
+
+def greet(first_name, last_name):
+    print(f"Hi {first_name} {last_name}")
+    print("welcome aboard")
+
+
+greet("Jay", "Oceans")
+
 
 # Day 3
 
@@ -5,7 +43,6 @@
 # did the file name change ?...
 # test if git is needed ... NO
 
-import math
 count = 0
 for number in range(1, 30):
     if number % 2 == 0:

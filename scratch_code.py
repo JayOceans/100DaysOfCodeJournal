@@ -1,15 +1,14 @@
 # daily work
+import math
 
 
-def fizz_buzz(input):
+weight = int(input("weight: "))
+unit = input("(L)bs or (K)g: ")
 
-    if (input % 5 == 0) and (input % 3 == 0):
-        return("FizzBuzz")
-    if input % 3 == 0:
-        return("Fizz")
-    if input % 5 == 0:
-        return("Buzz")
-    return(input)
+if unit.upper() == "L":
+    converted = weight * .45
+    print(f"you r {converted} kgs.")
+else:
+    converted = weight / .45
+    print(f"you r {converted} pounds.")
 
-
-print(fizz_buzz(34))

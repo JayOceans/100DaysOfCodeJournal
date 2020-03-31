@@ -1,7 +1,53 @@
 # Day 4
-
-
 import math
+
+weight = int(input("weight: "))
+unit = input("(L)bs or (K)g: ")
+
+if unit.upper() == "L":
+    converted = weight * .45
+    print(f"you r {converted} kgs.")
+else:
+    converted = weight / .45
+    print(f"you r {converted} pounds.")
+
+
+
+name = "jay"
+
+if len(name) < 3:
+    print("your names too short")
+elif len(name) >= 50:
+    print("yo names too long, dude")
+else:
+    print(f"thnaks {name}!")
+
+
+house_price = 1000000
+has_good_credit = True
+
+if has_good_credit:
+    deposit = house_price * .1
+
+else:
+    deposit = house_price * .2
+
+print(f"the despoit is ${deposit}.")
+
+
+lbs = input("how many pound u weigh? ")
+kilos = int(lbs) / 2
+KGs = kilos * .1
+KG = kilos - KGs
+
+print("you weigh " + str(KG) + " kg...wow!")
+
+
+name = input("what's your name? ")
+age = input("what's your age? ")
+print(name + " is " + age + " years old.")
+print("ok")
+print("good")
 
 
 def fizz_buzz(input):

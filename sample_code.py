@@ -1,5 +1,80 @@
-# Day 4
+
 import math
+
+# Day 5
+
+
+
+numbers = [5, 2, 5, 2, 2]
+
+for x_count in numbers:
+    output = ''
+    for count in range(x_count):
+        output += 'x'
+    print(output)
+
+
+prices = [10, 20, 30]
+total = 0
+
+for cost in prices:
+    total += cost
+print(f"the total is {total})
+
+
+user_says = ""
+now_started = False
+
+while True:
+    user_says = input(">").lower()
+
+    if user_says == "start":
+        if now_started:
+            print("your already started!!!")
+        else:
+            now_started = True
+            print("your car is starting...")
+
+    elif user_says == "stop":
+        if not now_started:
+            print("your already stopped!!!")
+        else:
+            now_started = False
+            print("your car is stoping...")
+
+    elif user_says == "help":
+        print("""
+        start - starts car
+        stops - stops car
+        quit - quits game
+        """)
+    elif user_says == "quit":
+        break
+
+    else:
+        print("sorry, i don't understand")
+
+
+magic_number = 7
+guess_limit = 3
+
+num_of_trys = 0
+
+
+while num_of_trys < guess_limit:
+    user_guess = int(input("please guess 1-10: "))
+    num_of_trys += 1
+
+    if user_guess == magic_number:
+        print("your right!")
+        break
+else:
+    print("you lose")
+
+print("game over")
+
+
+# Day 4
 
 weight = int(input("weight: "))
 unit = input("(L)bs or (K)g: ")
@@ -10,7 +85,6 @@ if unit.upper() == "L":
 else:
     converted = weight / .45
     print(f"you r {converted} pounds.")
-
 
 
 name = "jay"

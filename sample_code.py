@@ -1,9 +1,96 @@
 
 import math
 
+# Day 6
+
+# create functions
+
+
+def emoji_converter(message):
+    words = message.split(" ")
+
+    emoji = {
+        ": )": "😃",
+        ": (": "😞"
+    }
+
+    output = ""
+    for word in words:
+        output += emoji.get(word, word) + " "
+    return output
+
+
+message = input(">")
+print(emoji_converter(message))
+
+
+# dictionaries
+
+message = input(">")
+words = message.split(" ")
+
+emoji = {
+    ": )": "test",
+    ": (": "😞"
+}
+
+output = ""
+for word in words:
+    output += emoji.get(word, word) + " "
+
+print(output)
+# BROKEN !!!!!
+
+
+numbers = {
+    "1": "one",
+    "2": "two",
+    "3": "three",
+    "4": "four",
+    "5": "five"
+}
+
+output = ""
+digi = input("what's your number: ")
+
+for num in digi:
+    output += numbers.get(num, "!") + " "
+print(output)
+
+
+clients = {
+    "name": "Joe",
+    "age": 34,
+    "is_hodl": True,
+}
+print(clients["name"])
+print(clients.get("age"))
+
+
+#  tumple = (1, 2, 3)
+#  x, y, z = tumple
+#  print(x)
+
+
+numbers = [1, 444, 7, 7, 67, 345, 7]
+unques = []
+
+for num in numbers:
+    if num not in unques:
+        unques.append(num)
+print(unques)
+
+
+num_list = [1, 444, 67, 345, 7]
+
+max = num_list[0]
+
+for num in num_list:
+    if num > max:
+        max = num
+print(max)
+
 # Day 5
-
-
 
 numbers = [5, 2, 5, 2, 2]
 

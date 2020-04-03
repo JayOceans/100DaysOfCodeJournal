@@ -1,19 +1,12 @@
 # daily work
 
+import openpyxl as xl
 
-def emoji_converter(message):
-    words = message.split(" ")
+wb = xl.load_workbook("store.xlsx")
 
-    emoji = {
-        ": )": "test",
-        ": (": "😞"
-    }
+sheet = wb["Sheet1"]
 
-    output = ""
-    for word in words:
-        output += emoji.get(word, word) + " "
-    return output
+cell = sheet["a1"]
+cell = sheet.cell(1, 1)
 
-
-message = input(">")
-print(emoji_converter(message))
+print(cell.values)

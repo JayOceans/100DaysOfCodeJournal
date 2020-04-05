@@ -1,11 +1,84 @@
 
+import turtle
+import openpyxl as xl
 from utils import find_max
 import math
 import random
 
+# Day 9
+
+###
+
+from time import sleep
+
+a = 2
+while True:
+    print(a)
+    sleep(.5)
+    a **= 2
+
+###
+
+
+want_bg_color = input("what color background do u want: ")
+wn = turtle.Screen()
+wn.bgcolor(want_bg_color)      # Set the window background color
+wn.title("Hello, Tess!")      # Set the window title
+
+want_turtle_color = input("what color turtle do u want: ")
+tess = turtle.Turtle()
+tess.color(want_turtle_color)
+# Tell tess to change her color
+
+want_size_pen = int(input("what size pen do u want: "))
+tess.pensize(want_size_pen)               # Tell tess to set her pen width
+
+tess.forward(50)
+tess.left(120)
+tess.forward(50)
+
+wn.mainloop()
+
+
+def hour_of_alarm(now, hours_waiting):
+    alarm_hour = 0
+    alarm_hour = (now + hours_waiting) % 24
+    return alarm_hour
+
+
+print(hour_of_alarm(3, 49))
+
+
+# WORKING !
+
+now = 14
+alarm = (now + 51) % 24
+print(alarm)
+
+#
+
+word = "apple"
+new_word = ""
+
+
+def duplicate_encode(word):
+    new_word = ""
+
+    for index in word:
+        if index in word:
+            index = ")"
+            new_word += index
+        else:
+            index = "("
+            new_word += index
+    return(new_word)
+
+
+print(new_word)
+
+
 # Day 8
 
-import openpyxl as xl
 
 wb = xl.load_workbook("store.xlsx")
 
@@ -266,8 +339,8 @@ while num_of_trys < guess_limit:
     if user_guess == magic_number:
         print("your right!")
         break
-else:
-    print("you lose")
+    else:
+        print("you lose")
 
 print("game over")
 

@@ -1,15 +1,66 @@
 
+from time import sleep
 import turtle
 import openpyxl as xl
 from utils import find_max
 import math
 import random
 
+# Day 10
+
+
+###
+
+xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+
+# for a in xs:
+#   print(a)
+
+# for a in xs:
+#    print(f"{a}, {a ** 2}")
+
+# total = 0
+# for a in xs:
+#    total += a
+
+# print(total)
+
+product = 1
+for a in xs:
+    product *= a
+
+print(product)
+
+
+###
+months = ["Jan", "Feb", "March", "April", "May",
+          "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"]
+
+for m in months:
+    print(f"{m} is a month of the year.")
+
+###
+print("We like Python's turtles!" * 1000)
+
+# OR as DEF, below
+
+string = "hello world  "
+x = 40
+
+
+def print_string(string, x):
+    press = ""
+    press = string * x
+    return press
+
+
+print(print_string(string, x))
+
+
 # Day 9
 
 ###
 
-from time import sleep
 
 a = 2
 while True:
